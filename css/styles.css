@@ -14,8 +14,7 @@ body {
 }
 
 .header .container,
-.main,
-.footer {
+.main {
     max-width: 1200px;
 }
 
@@ -103,7 +102,7 @@ h2 {
     font-size: 20px;
 }
 
-button {
+.text-signup button {
     margin: 30px 240px 30px 0;
     padding: 5px 0;
     border-radius: 10px;
@@ -128,7 +127,7 @@ button:hover {
     align-items: center;
 }
 
-h3 {
+.segments .container h3 {
     font-size: 30px;
     margin: 20px 0;
 }
@@ -156,6 +155,7 @@ h3 {
 /* Testimonial */
 .testimonial {
     display: flex;
+    border-bottom: 3px solid #fff;
     flex-direction: column;
     height: 200px;
     background-color: lightgray;
@@ -170,4 +170,51 @@ h3 {
 
 .signed {
     margin-left: auto;
+}
+
+/* Join us! */
+.join {
+    width: 100%;
+    background-color: #fff;
+}
+
+.join .container {
+    height: 150px;
+    background-color: #4b4a4a;
+    color: #fff;
+    border: 3px solid orange;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+.join .container h3 {
+    font-size: 27px;
+}
+
+span {
+    font-weight: bold;
+    color: orange;
+}
+
+.join .container button {
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #fff;
 }
