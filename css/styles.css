@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Kanit:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.header {
+    background-color: gray;
+    color: #fff;
+    height: 100px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    padding: 15px;
+}
+
+.logo p {
+    font-size: 50px;
+    font-family: 'ADLaM Display', cursive;
+    padding-top: 20px;
+}
+
+.container .links {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: orange;
+}
