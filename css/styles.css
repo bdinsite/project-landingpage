@@ -152,3 +152,22 @@ h3 {
 .content p {
     padding: 15px;
 }
+
+/* Testimonial */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.testimonial p {
+    font-size: 20px;
+    padding: 0 150px;
+    font-style: italic;
+}
+
+.signed {
+    margin-left: auto;
+}
